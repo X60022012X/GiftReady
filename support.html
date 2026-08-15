@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Support — GiftReady</title>
+
+    <meta
+        name="description"
+        content="Get help and support for the GiftReady app."
+    >
+
+    <!-- Website Icon -->
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+
+            background: #FFDA9C;
+            color: #111;
+            min-height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* HEADER */
+
+        header {
+            width: 100%;
+            background: #FFBD59;
+            border-bottom: 2px solid black;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 18px 24px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            font-size: 24px;
+            font-weight: 800;
+
+            text-decoration: none;
+            color: black;
+        }
+
+        .logo-icon {
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* MAIN */
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        h1 {
+            font-size: clamp(42px, 7vw, 64px);
+            margin-bottom: 15px;
+        }
+
+        .intro {
+            font-size: 19px;
+            line-height: 1.6;
+            margin-bottom: 45px;
+            max-width: 650px;
+        }
+
+
+        /* SUPPORT CARDS */
+
+        .support-card {
+            background: rgba(255, 255, 255, 0.82);
+
+            border: 2px solid black;
+            border-radius: 22px;
+
+            padding: 30px;
+            margin-bottom: 22px;
+
+            box-shadow: 6px 6px 0 #FFBD59;
+        }
+
+        .support-card h2 {
+            font-size: 23px;
+            margin-bottom: 12px;
+        }
+
+        .support-card p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .support-card a {
+            color: black;
+            font-weight: 700;
+        }
+
+
+        /* CONTACT BUTTON */
+
+        .contact-button {
+            display: inline-block;
+
+            margin-top: 20px;
+            padding: 14px 22px;
+
+            background: #FFBD59;
+            color: black;
+
+            border: 2px solid black;
+            border-radius: 14px;
+
+            text-decoration: none;
+            font-weight: 700;
+
+            transition: 0.15s ease;
+        }
+
+        .contact-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 4px 4px 0 black;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            background: #FFBD59;
+            border-top: 2px solid black;
+            padding: 30px 24px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            gap: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            main {
+                padding-top: 50px;
+            }
+
+            .nav-links {
+                gap: 14px;
+                font-size: 14px;
+            }
+
+            .support-card {
+                padding: 24px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+<header>
+
+    <nav>
+
+        <a class="logo" href="index.html">
+            <span class="logo-icon">🎁</span>
+            GiftReady
+        </a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="support.html">Support</a>
+            <a href="privacy.html">Privacy</a>
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h1>Support</h1>
+
+    <p class="intro">
+        Need help with GiftReady? Find answers to common questions below,
+        or contact us if you need additional support.
+    </p>
+
+
+    <div class="support-card">
+
+        <h2>🎂 Birthday reminders aren't appearing</h2>
+
+        <p>
+            Make sure notifications are enabled for GiftReady in your
+            iPhone's Settings. Open Settings → Notifications → GiftReady
+            and make sure Allow Notifications is enabled.
+        </p>
+
+    </div>
+
+
+    <div class="support-card">
+
+        <h2>🎁 How do gift reminders work?</h2>
+
+        <p>
+            GiftReady reminds you before an upcoming birthday so you have
+            time to find and buy a gift. Once you've marked a gift as
+            bought, GiftReady will stop sending gift reminders for that
+            birthday.
+        </p>
+
+    </div>
+
+
+    <div class="support-card">
+
+        <h2>🗑️ How do I delete someone?</h2>
+
+        <p>
+            Open the person you want to remove and select
+            <strong>Delete person</strong>. Their birthday, gift information,
+            and notes will be removed from GiftReady.
+        </p>
+
+    </div>
+
+
+    <div class="support-card">
+
+        <h2>🔒 Where is my information stored?</h2>
+
+        <p>
+            GiftReady stores your information locally on your device.
+            For more information about how GiftReady handles your data,
+            read our
+            <a href="privacy.html">Privacy Policy</a>.
+        </p>
+
+    </div>
+
+
+    <div class="support-card">
+
+        <h2>✉️ Still need help?</h2>
+
+        <p>
+            If you're experiencing a problem with GiftReady or have
+            a question that isn't answered above, feel free to contact us.
+        </p>
+
+        <a
+            class="contact-button"
+            href="mailto:leo.fredenborg@gmail.com?subject=GiftReady Support"
+        >
+            Contact Support
+        </a>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            © 2026 GiftReady
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="support.html">Support</a>
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
